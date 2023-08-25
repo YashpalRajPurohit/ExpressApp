@@ -1,0 +1,42 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+body {
+  padding: 2%;
+  font: 30px;
+  font-family: 'Cabin', Arial, sans-serif;
+  background-color: #F1F6F9;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  color: #9BA4B5;
+  margin: 40px;
+  text-align: center;
+}
+
+p:hover {
+  color: #0D1282;
+}
+
+h1 {
+  color: #F1F6F9;
+  border-radius: 60px 15px;
+  background-color: #394867;
+  display: block;
+  margin: auto;
+  padding: 5px 40px;
+  width: max-content;
+  font-family: 'Lobster', cursive;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
