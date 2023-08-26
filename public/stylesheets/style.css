@@ -109,6 +109,10 @@ a:hover {
   color: #fff
 }
 
+span.badge.badge-warning {
+  background-color: #FFC436;
+}
+
 body {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
