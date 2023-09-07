@@ -103,11 +103,18 @@ p {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.8)
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding-right: 6px;
 }
 
 a:hover {
-  color: #fff
+  color: #fff;
+}
+
+.fa-star{
+  color: #aaa;
+  font-size: medium;
 }
 
 span.badge.badge-warning {
