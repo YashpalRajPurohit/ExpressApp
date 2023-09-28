@@ -1,13 +1,12 @@
+// const dbURI = 'mongodb://0.0.0.0:27017/Loc8r';
+
 const mongoose = require('mongoose');
 const readLine = require('readline');
 
 let dbURL = 'mongodb://127.0.0.1/Loc8r';
-// const dbURI = 'mongodb://0.0.0.0:27017/Loc8r';
-
 if (process.env.NODE_ENV === 'production') {
     dbURL = process.env.DB_HOST || process.env.MONGODB_URI;
 }
-
 
 const connect = () => {
     setTimeout(() => mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true }), 1000);
